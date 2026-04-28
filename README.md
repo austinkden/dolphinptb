@@ -1,43 +1,21 @@
 # DPTB2 Utils
-An utility mod for the Hypixel Housing game **Don't Press The Button 2**
+An utility mod for the Hypixel Housing game **Don't Press The Button 2** screwed over by mineguy
 
 ### Current supported versions:
-- Forge 1.8.9
 - Fabric 1.21.4
-- Fabric 1.21.7
-- Fabric 1.21.10
 
 # Features
-- **AutoCheer**: Automatically cheers when a community goal is reached.
-- **Micro-event Notifications**: Notifies you when these events happen:
-    - Shop Update: Rotating Shop reset.
-    - Boots Acquisition: Someone got a rare boots with the announcement in chat.
-    - City Door Switch: When City's random door switches.
-    - Button Mayhem: No button cooldown for 10s.
-    - Button Disabled: Button is disabled for 5s.
-    - Button Immunity: Next person to press the button will not die.
-- **Boots Tracker**: Tracks the boots players have acquired in your current session.
-- **Button Timer**: HUD display that shows how long ago the button was last pressed.
-- **DPTBot Integration**: Integrates with the DPTBot Discord bot for the VI+ discord's Chat Ramp:
-    - Enable the "DPTBot Connection" option in the mod menu to connect to the bot when you join the DPTB2 housing.
-    - Use `/broadcast` (or `/bc`) command to broadcast a message to everyone connected to DPTBot.
-- **Item Cooldown HUD**: HUD display that shows the list of special items' current cooldowns.
-- **Micro Event Timer**: HUD display that shows the list of special items' current cooldowns.
-- More coming soon...
-
-### Advanced DTPBot options
-- When enabled, 2 textboxes will appear in the mod menu screen.
-- They are the **DPTBot Server Host** and **DPTBot Server Port** that the mod connects to.
-- Do not change them unless told otherwise.
-
-![img.png](res/img.png)
+- **/tima** sets micro timer, /tima minutes seconds to set it
+- micro timer cant go above 5 minutes and 1 second
+- micro timer makes a blaze death sound when its at 4 50
+- connection from everywhere
+- /broadcast /bc auto name completer
+- togglebc draggable hud
 
 # Usage:
 Run `/dptb2` in the chat to open the mod menu.
 
-![preview.png](res/preview.png)
-
-![hud_preview.png](res/hud_preview.png)
+weeb pls no sue me i cry
 
 # Installation
 ### Pre-built package
