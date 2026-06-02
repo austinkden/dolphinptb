@@ -163,7 +163,7 @@ public class ChatHudMixin {
             if (mc.getNetworkHandler() != null) {
                 mod.scheduleTask(rand.nextInt(26) + 5, () -> mc.getNetworkHandler().sendChatCommand("cheer"));
             }
-        } else if (content.startsWith("* ➜ The BUTTON was just clicked")) {
+        } else if (content.startsWith("* ➜ The BUTTON was pressed")) {
             ButtonTimerManager.buttonTimer = 0; // reset the button timer
 
             // chaos button handling

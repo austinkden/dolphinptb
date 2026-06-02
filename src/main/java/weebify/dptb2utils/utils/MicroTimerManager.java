@@ -61,11 +61,14 @@ public class MicroTimerManager {
                     // 4 minutes 50 seconds = 290 seconds
                     // 290 seconds * 20 ticks = 5800 ticks
                     if (MicroTimerManager.microTimer == 5800) {
-                        if (mc.player != null) {
-                            mc.player.playSound(
+                        if (mc.world != null) {
+                            mc.world.playSound(
+                                    mc.player, // passes the player so they hear it
+                                    mc.player.getX(), mc.player.getY(), mc.player.getZ(),
                                     net.minecraft.sound.SoundEvents.ENTITY_BLAZE_DEATH,
-                                    1.0f, // Volume (1.0 is full)
-                                    1.0f  // Pitch (1.0 is normal)
+                                    net.minecraft.sound.SoundCategory.PLAYERS, // needs a sound category!
+                                    1.0f, 
+                                    1.0f
                             );
                         }
                     }
